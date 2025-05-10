@@ -1,0 +1,27 @@
+{
+  "name": "proxjs",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Type-safe Proxmox VE API client",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "proxmox",
+    "api",
+    "client",
+    "typescript"
+  ],
+  "author": "Eytak Corporation <support@eytak.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0"
+  }
+}
